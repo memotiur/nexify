@@ -41,7 +41,6 @@ Download the minified CSS and JS files from the [GitHub repository](https://gith
 
 Add the Nexify CDN to your project, then call the `showToast()` function to display a toast notification. It’s super easy—that's it!
 
-
 ```javascript
 showToast("Your message here", "success", "top-right", 3000);
 ```
@@ -92,7 +91,7 @@ Copy this code, paste it into any editor, and preview the Nexify toast notificat
 </html>
 ```
 
-**[Live Preview on CodePen](https://codepen.io/memotiur/pen/MWzWvOX)**
+**[Live Preview on CodePen](https://codepen.io/memotiur/pen/PwwymYq)**
 
 ---
 
@@ -105,7 +104,3 @@ Check out the project on [GitHub](https://github.com/memotiur/nexify).
 ## 📄 License
 
 Nexify is licensed under the [MIT License](https://github.com/memotiur/nexify/blob/main/LICENSE).
-
----
-
-*Built with ❤️ by [memotiur](https://github.com/memotiur)*
