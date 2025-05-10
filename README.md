@@ -20,5 +20,5 @@
 ### Option 1: CDN
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/[your-username]/nexify/dist/nexify.min.css">
-<script src="https://cdn.jsdelivr.net/gh/[your-username]/nexify/dist/nexify.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/memotiur/nexify/dist/nexify.min.css">
+<script src="https://cdn.jsdelivr.net/gh/memotiur/nexify/dist/nexify.min.js"></script>
