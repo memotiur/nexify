@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nexify Demo</title>
+    <link rel="stylesheet" href="../dist/nexify.min.css">
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            background: #553c9a;
+            color: #fff;
+        }
+        button:hover {
+            background: #452a7a;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Nexify Toast Demo</h1>
+
+<button onclick="showToast('This is a success message!', 'success')">Show Success</button>
+<button onclick="showToast('This is a warning message!', 'warning')">Show Warning</button>
+<button onclick="showToast('This is a danger message!', 'danger')">Show Danger</button>
+
+<script src="../dist/nexify.min.js"></script>
+
+</body>
+</html>

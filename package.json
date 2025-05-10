@@ -1,0 +1,31 @@
+{
+  "name": "nexify",
+  "version": "1.0.0",
+  "description": "A simple, customizable toast notification library.",
+  "main": "dist/nexify.min.js",
+  "author": "[Your Name]",
+  "license": "MIT",
+  "keywords": [
+    "toast",
+    "notification",
+    "javascript",
+    "css",
+    "library"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/memotiur/nexify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/memotiur/nexify/issues"
+  },
+  "homepage": "https://github.com/memotiur/nexify#readme",
+  "scripts": {
+    "build": "terser src/nexify.js -o dist/nexify.min.js && postcss src/nexify.css -o dist/nexify.min.css"
+  },
+  "devDependencies": {
+    "postcss-cli": "^10.1.0",
+    "cssnano": "^5.1.0",
+    "terser": "^5.14.2"
+  }
+}
