@@ -1,9 +1,9 @@
 {
   "name": "nexify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple, customizable toast notification library.",
   "main": "dist/nexify.min.js",
-  "author": "[Your Name]",
+  "author": "Motiur Rahaman",
   "license": "MIT",
   "keywords": [
     "toast",
